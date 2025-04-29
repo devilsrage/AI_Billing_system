@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="../static/styleDoc.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg shadow-sm snackopia-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Snackopia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="{{ url_for('index') }}">Home</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div id="documentation">
+        <div class="image-section">
+            <img src="../static/image/EmbeddedImage.jpg" alt="Dr. Rajdeep Chatterjee">
+        </div>
+        <h2>Dr. Rajdeep Chatterjee (Project Coordinator)</h2>
+        <p>
+            Rajdeep Chatterjee received his Bachelor of Engineering in Computer Science and Engineering from The
+            University of Burdwan in 2008. He completed both his Master of Technology and Ph.D. in Computer Science
+            and Engineering from KIIT Deemed to be University in 2011 and 2020, respectively. He received MHRD
+            (Govt. of India) scholarship in his masters for possessing All India Rank 1410 in GATE-2008.
+        </p>
+        <p>
+            He started his professional career as Project Linked Person at Machine Intelligence Unit, Indian Statistical
+            Institute, Kolkata. He is a regular reviewer of various reputed journals such as:
+        </p>
+        <ul class="ul-list">
+            <li class="list">Medical & Biological Eng. & Computing (SCI-E, IF: 2.602)</li>
+            <li>IEEE Transactions on Biomedical Engineering (SCI-E, IF: 4.538)</li>
+            <li>IEEE Journal of Biomedical and Health Informatics (SCI-E, IF: 5.223)</li>
+            <li>Computers in Biology and Medicine (SCI-E, IF: 4.589)</li>
+            <li>IEEE Transactions on Emerging Topics in Computational Intelligence (Scopus, IF: 8.28)</li>
+        </ul>
+        <p>
+            His research areas include <strong>Brain-Computer Interface, Machine Learning, Deep Learning, and Computer Vision</strong>.
+        </p>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

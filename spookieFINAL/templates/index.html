@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackopia - Instant Snack Detection</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="static/styles.css">
+</head>
+<body>
+
+
+    <nav class="navbar navbar-expand-lg shadow-sm snackopia-navbar">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Snackopia</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('documentation') }}">Documentation</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('about') }}">About</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="hero-section text-center">
+        <div class="container">
+            <h1 class="display-4">Instant Snack Detection</h1>
+            <p class="para lead text-muted">
+                Upload your snack video and get results in seconds. No waiting, no hassle—just fast and accurate snack recognition!
+            </p>
+            <a href="/upload" class="btn btn-primary btn-lg">Detect Snacks Now</a>
+        </div>
+    </header>
+
+
+    <section class="features-section py-5">
+        <div class="container text-center">
+            <h2 class="fw-bold">Why Choose Snackopia?</h2>
+            <p class="text-muted">The fastest way to identify your favorite snacks</p>
+            <div class="row mt-4">
+                <div class="col-md-4">
+                    <img src="../static/image/download.jpeg" alt="AI Detection" class="feature-icon rounded-circle">
+                    <h5>Instant Recognition</h5>
+                    <p>Detects snacks in real-time with lightning-fast AI.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="../static/image/download.png" alt="No Waiting" class="feature-icon rounded-circle">
+                    <h5>No Waiting</h5>
+                    <p>Get results in seconds—zero time wasted.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="static\image\images.png" alt="Accurate" class="feature-icon rounded-circle">
+                    <h5>Highly Accurate</h5>
+                    <p>Powered by AI models trained on thousands of snacks.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

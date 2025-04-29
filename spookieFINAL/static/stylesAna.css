@@ -1,0 +1,77 @@
+/* Global Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+/* Navbar Styles */
+.snackopia-navbar {
+    border: 0 !important;
+    background-color: #f8f9fa;
+    padding: 0;
+}
+.nav-link:hover {
+    color: black ;
+}
+.snackopia-navbar .navbar-brand {
+    font-size: 1.5rem;
+    color: #C21292;
+}
+
+/* Video Stream Styles */
+#videoStream {
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    height: auto;
+}
+
+/* Sidebar Styles */
+#itemCount {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#checkoutCart {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.list-group-item {
+    font-size: 1rem;
+    padding: 10px 15px;
+}
+
+/* Total Price Styles */
+#totalPrice {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #C21292;
+}
+
+/* Button Styles */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+}
+body{
+    background: #FFF5E0;
+    padding: 50px 0;
+}

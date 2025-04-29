@@ -1,0 +1,66 @@
+body {
+    background-color: #4d3c8b;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    background: url('./image/36536342.jpg') no-repeat center center/cover;
+    height: 100vh; /* Full-screen height */
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: flex-start; /* Move content higher */
+    text-align: center;
+    color: white;
+    padding-top: 10vh; /* Moves text up */
+}
+
+.hero-section .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+}
+
+.hero-section h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #250674; /* Gold color */
+}
+
+.hero-section p.lead {
+    font-size: 32px;
+    color: #2949a1; /* Orange-Red */
+    font-weight: 600;
+}
+
+.hero-section p {
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+    color: #216cd6; /* Light Blue */
+    max-width: 70%;
+    font-weight: 400;
+}
+
+.snackopia-navbar {
+    background-color: #f9fbfd !important; /* Force gray background */
+    min-height: 50px;
+    padding: 0;
+    border: 0 !important;
+}
+/* Ensure navbar links are visible */
+.snackopia-navbar .navbar-brand,
+.snackopia-navbar .nav-link {
+    color: #C21292 !important;
+}
+
+/* Adjust hover color */
+.snackopia-navbar .nav-link:hover {
+    color: black !important;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+}
